@@ -23,20 +23,21 @@ Perro p = new Perro();
 Perro q = new Perro("Chuguagua");
 q.Ladrar()
 """
-#python
+#python POO
+
 class Perro:
-    def __init__(self, raza = ""):
-        self.raza = raza
+
+    #"Constructor"
+    def __init__(self, raza =""):
         self.edad = 1
+        self.raza = raza
     def __str__(self):
         return f"{self.raza} de {self.edad} años"
-    def ladrar(self):
-        print(f"{self.raza} dice guau")
-
+    def ladrar (self):
+        print (f"{self.raza} dice guau")
+ 
 p = Perro()
-print(p)
-p.ladrar()
-
-q = Perro("Chuguagua")
+print (p)
+q = Perro("CHIGUAGUA")
 print(q)
 q.ladrar()

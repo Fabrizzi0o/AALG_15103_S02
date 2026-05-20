@@ -11,12 +11,7 @@ m,s,a,e = ['mesa', 'silla', 'armario', 'estante']
 print(m,s,a,e)
 
 x = 10
-y = 20
-
-
-#tmp = x
-#x = y
-#y = tmp
+y =20
 
 x,y = y,x
-print(x,y)
+print(x,y)#intercambia los valores
